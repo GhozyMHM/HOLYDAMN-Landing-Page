@@ -692,37 +692,6 @@ textarea:focus {
     #accordionExample {
         width: 75% !important;
     }
-}
-
-@media (max-width: 700px) {
-    .icon {
-        width: 40px;
-        height: 40px;
-    }
-
-    .gallery-item .overlay a {
-        top: 45%;
-        left: 53%;
-    }
-
-    .card-accord {
-        height: 65px !important;
-    }
-
-    #title-card {
-        font-size: 19px !important;
-    }
-
-    .body-card {
-        font-size: 17px !important;
-        font-weight: 500 !important;
-        font-family: 'Archivo', sans-serif !important;
-        color: rgba(153, 153, 153, 0.7) !important;
-    }
-
-    #accordionExample {
-        width: 75% !important;
-    }
 
     .contact-col {
         margin: 0 auto !important;
@@ -771,6 +740,38 @@ textarea:focus {
         letter-spacing: 0px;
         list-style: none;
         line-height: 28px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .gallery-item .overlay a {
+        top: 45%;
+        left: 53%;
+    }
+
+    .card-accord {
+        height: 65px !important;
+    }
+
+    #title-card {
+        font-size: 19px !important;
+    }
+
+    .body-card {
+        font-size: 17px !important;
+        font-weight: 500 !important;
+        font-family: 'Archivo', sans-serif !important;
+        color: rgba(153, 153, 153, 0.7) !important;
+    }
+
+    #accordionExample {
+        width: 75% !important;
     }
 
     .newslatter-form form input {
