@@ -8,7 +8,7 @@ include 'dbconnection.php';
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="Style/animate.css">
     <link rel="stylesheet" href="Style/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
@@ -17,7 +17,7 @@ include 'dbconnection.php';
     <link rel="stylesheet" href="Style/style.css">
     <link rel="shortcut icon" href="Style/img/logo-square.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>HOLYDAMN</title>
+    <title>HOLYDAMN | Your Classy Outfit</title>
 </head>
 
 <body>
@@ -28,9 +28,7 @@ include 'dbconnection.php';
             <!--Navigation Bar-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top pb-0 pt-0 navbar-holy">
                 <a class="navbar-brand" href="index.html"><img class="icon" src="Style/img/logo-square.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -119,8 +117,7 @@ include 'dbconnection.php';
             <div class="jumbotron jumbotron-fluid">
                 <div class="row">
                     <div class="col text-center">
-                        <a href="https://linktr.ee/Holydamn" target="_blank"><button
-                                class="btn btn-dark">ORDER</button></a>
+                        <a href="https://linktr.ee/Holydamn" target="_blank"><button class="btn btn-dark">ORDER</button></a>
                     </div>
                 </div>
             </div>
@@ -134,73 +131,73 @@ include 'dbconnection.php';
                 <!--Swiper-->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat1F.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat1F.png)">
                             <div class="info">
                                 <h3>Code: Allergic Black (Front)</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat1B.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat1B.png)">
                             <div class="info">
                                 <h3>Code: Allergic Black (Back)</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat2F.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat2F.png)">
                             <div class="info">
                                 <h3>Code: Allergic White (Front)</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat2B.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat2B.png)">
                             <div class="info">
                                 <h3>Code: Allergic White (Back)</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat3.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat3.png)">
                             <div class="info">
                                 <h3>Code: HolyLogo Black</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat4.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat4.png)">
                             <div class="info">
                                 <h3>Code: HolyLogo White</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat5.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat5.png)">
                             <div class="info">
                                 <h3>Code: HolyTicon Black</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat6.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat6.png)">
                             <div class="info">
                                 <h3>Code: HolyTicon White</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat7.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat7.png)">
                             <div class="info">
                                 <h3>Code: Red Gradient Black</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat8.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat8.png)">
                             <div class="info">
                                 <h3>Code: Red Gradient White</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat9.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat9.png)">
                             <div class="info">
                                 <h3>Code: Blue Gradient Black</h3>
                                 <h3>Price: IDR 99.000</h3>
                             </div>
                         </div>
-                        <div class="swiper-slide" style="background-image:url(style/img/Cat10.png)">
+                        <div class="swiper-slide" Style="background-image:url(Style/img/Cat10.png)">
                             <div class="info">
                                 <h3>Code: Blue Gradient White</h3>
                                 <h3>Price: IDR 99.000</h3>
@@ -218,23 +215,23 @@ include 'dbconnection.php';
                 <div class="container">
 
                     <div class="row templatemo_portfolio">
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-4 col-12">
                             <div class="gallery-item">
-                                <img src="Style/img/Pict1.jpeg" alt="gallery 1">
-                                <div class="overlay">
-                                    <a href="Style/img/Pict1.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="gallery-item">
-                                <img src="Style/img/Pict2.jpeg" alt="gallery 2">
+                                <img src="Style/img/Pict2.jpeg" alt="gallery 1">
                                 <div class="overlay">
                                     <a href="Style/img/Pict2.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-4 col-6">
+                            <div class="gallery-item">
+                                <img src="Style/img/Pict1.jpeg" alt="gallery 2">
+                                <div class="overlay">
+                                    <a href="Style/img/Pict1.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
                             <div class="gallery-item">
                                 <img src="Style/img/Pict3.jpeg" alt="gallery 3">
                                 <div class="overlay">
@@ -245,7 +242,7 @@ include 'dbconnection.php';
                     </div>
 
                     <div class="row templatemo_portfolio">
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-3 col-6">
                             <div class="gallery-item">
                                 <img src="Style/img/Pict4.jpeg" alt="gallery 4">
                                 <div class="overlay">
@@ -253,7 +250,7 @@ include 'dbconnection.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-3 col-6">
                             <div class="gallery-item">
                                 <img src="Style/img/Pict5.jpeg" alt="gallery 5">
                                 <div class="overlay">
@@ -261,7 +258,7 @@ include 'dbconnection.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-3 col-6">
                             <div class="gallery-item">
                                 <img src="Style/img/Picts6.jpg" alt="gallery 6">
                                 <div class="overlay">
@@ -269,7 +266,7 @@ include 'dbconnection.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-3 col-6">
                             <div class="gallery-item">
                                 <img src="Style/img/Pict6.jpeg" alt="gallery 7">
                                 <div class="overlay">
@@ -292,9 +289,7 @@ include 'dbconnection.php';
                 <div class="card card-wrap mb-3">
                     <div class="card-header card-accord" id="headingOne">
                         <h2 class="mb-0">
-                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title"
-                                type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne">
+                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <i class="fas fa-chevron-down fa-lg mr-3"></i>Holydamn Brand
                             </button>
                         </h2>
@@ -314,9 +309,7 @@ include 'dbconnection.php';
                 <div class="card card-wrap mb-3">
                     <div class="card-header card-accord" id="headingTwo">
                         <h2 class="mb-0">
-                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title"
-                                type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
+                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <i class="fas fa-chevron-down fa-lg mr-3"></i>Our Product
                             </button>
                         </h2>
@@ -338,16 +331,13 @@ include 'dbconnection.php';
                 <div class="card card-wrap">
                     <div class="card-header card-accord" id="headingThree">
                         <h2 class="mb-0">
-                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title"
-                                type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
+                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <i class="fas fa-chevron-down fa-lg mr-3"></i>This Website
                             </button>
                         </h2>
                     </div>
 
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                        data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body body-card">
                             Welcome to the landing page of HOLYDAMN. This is the right place
                             to upgrade your style with our product. You can see our catalog and Information
@@ -365,38 +355,28 @@ include 'dbconnection.php';
             <div class="contact-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-8 col-11 contact-col">
                             <form class="contact-form" method="POST" action="contactdata.php">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <input spellcheck="false" type="text" placeholder="Full Name" name="fullname">
 
-                                        <input spellcheck="false" type="email" placeholder="youremail@example.com"
-                                            name="email">
+                                        <input spellcheck="false" type="email" placeholder="youremail@example.com" name="email">
 
                                         <input spellcheck="false" type="text" placeholder="Subject" name="subject">
 
-                                        <textarea spellcheck="false" placeholder="Your Message"
-                                            name="message"></textarea>
+                                        <textarea spellcheck="false" placeholder="Your Message" name="message"></textarea>
                                     </div>
 
-                                    <div class="col-lg-12 text-left">
+                                    <div class="col-md-12 contact-button">
                                         <button type="submit">Send message</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
 
-                        <div id="cw" class="col-lg-3 offset-lg-1">
+                        <div id="cw" class="col-md-3 offset-lg-1">
                             <div class="contact-widget">
-                                <div id="location" class="cw-item">
-                                    <h5><i class="fas fa-map-marker-alt mr-2"></i>Location</h5>
-                                    <ul class="p-0 m-0">
-                                        <li>15417 South Tangerang</li>
-                                        <li>Banten, Indonesia</li>
-                                    </ul>
-                                </div>
-
                                 <div id="phone" class="cw-item">
                                     <h5><i class="fab fa-whatsapp mr-2"></i>Phone</h5>
                                     <ul class="p-0 m-0">
@@ -410,6 +390,13 @@ include 'dbconnection.php';
                                         <li>holydamnid@gmail.com</li>
                                     </ul>
                                 </div>
+
+                                <div id="instagram" class="cw-item">
+                                    <h5><i class="fab fa-instagram mr-2"></i>Instagram</h5>
+                                    <ul class="p-0 m-0">
+                                        <li>holydamn.id</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -419,9 +406,9 @@ include 'dbconnection.php';
 
         <!--Footer-->
         <div class="footer">
-            <div class="newslatter-form pb-5 mt-5">
-                <div class="row">
-                    <div id="foot-col" class="col-md-10 offset-1 col-sm-12">
+            <div class="newslatter-form mt-5 mb-5">
+                <div class="row news-row">
+                    <div id="foot-col" class="col-md-10 col-10 offset-1">
                         <form method="POST" action="newsletterdata.php">
                             <input spellcheck="false" type="text" placeholder="Your email address" name="email">
                             <button type="submit">Subscribe Newsletter</button>
@@ -429,17 +416,17 @@ include 'dbconnection.php';
                     </div>
                 </div>
             </div>
-            <div class="footer-content">
-                <div class="left">
+            <div class="row footer-content">
+                <div class="col-lg col-md-12 footcont1">
                     <img src="Style/img/logo-white.png" alt="HolyDamn-Logo">
                 </div>
-                <div class="middle pl-5 pr-3">
+                <div class="col-lg col-md-12 footcont2">
                     <h4>Information</h4>
                     <p>HOLYDAMN is a clothing brand which focus on
                         classy appearance from everyone through
                         the classy outfit that we produce.</p>
                 </div>
-                <div class="right pl-5">
+                <div class="col-lg col-md-12 footcont3">
                     <h4>Location & Contact</h4>
                     <p><i>South Tangerang, Indonesia</i></p>
                     <p><i class="far fa-envelope mr-2"></i>holydamnid@gmail.com<br>
@@ -453,14 +440,11 @@ include 'dbconnection.php';
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <script src="Style/owl.carousel.min.js"></script>
     <script src="JS/swiper.min.js"></script>

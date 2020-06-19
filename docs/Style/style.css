@@ -93,7 +93,7 @@ section#order button:hover {
 div.catalog {
     background-color: #222222;
     height: auto;
-    padding-top: 50px;
+    padding: 50px 0;
     margin-top: -32px;
     border-top: 8px solid #181717;
 }
@@ -138,18 +138,8 @@ div.catalog h1 {
 
 div#gallery {
     background-color: #222222;
-    height: 600px;
-    padding-top: 20px;
-}
-
-div#gallery h1 {
-    font-size: 30px;
-    font-weight: 800;
-    font-family: 'Archivo', sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.637);
-    padding-bottom: 20px;
+    height: auto;
+    padding: 20px 0 50px 0;
 }
 
 .templatemo_portfolio img {
@@ -268,10 +258,11 @@ body.blurred>* {
 #firstcards {
     background-color: #222222;
     width: 100%;
-    height: 470px;
+    height: auto;
     border-top: 8px solid #181717;
     border-radius: 0;
     justify-content: center;
+    padding: 50px 0;
 }
 
 #firstcards-cont {
@@ -504,6 +495,10 @@ textarea:focus {
     margin: 40px 0;
 }
 
+.newslatter-form {
+    padding-bottom: 50px;
+}
+
 .newslatter-form form {
     position: relative;
 }
@@ -577,21 +572,17 @@ textarea:focus {
     font-weight: bold;
 }
 
-.footer-content div.left {
-    flex: 1;
+.footer-content .footcont1 {
     border-right: 2px solid rgba(255, 255, 255, 0.637);
+    margin-right: 30px;
 }
 
-.footer-content div.middle {
-    flex: 1;
+.footer-content .footcont2 {
     border-right: 2px solid rgba(255, 255, 255, 0.637);
+    margin-right: 30px;
 }
 
-.footer-content div.right {
-    flex: 1;
-}
-
-@media (max-width: 950px) {
+@media (max-width: 768px) {
     .icon {
         width: 50px;
         height: 50px;
@@ -614,23 +605,6 @@ textarea:focus {
     div#order button {
         padding: 10px 70px;
         font-size: 16px;
-    }
-
-    .gallery-item img {
-        width: 70%;
-        display: block;
-        margin: 30px auto;
-    }
-
-    .gallery-item .overlay {
-        position: absolute;
-        top: 30px;
-        left: 68px;
-        width: 70%;
-        min-width: 70%;
-        min-height: 80%;
-        height: 80%;
-        display: block;
     }
 
     #firstcards {
@@ -667,22 +641,12 @@ textarea:focus {
         font-weight: 650;
     }
 
-    .newslatter-form form input {
-        width: 100%;
-        border: 2px solid #3b3b3b;
-        border-radius: 50px;
-        height: 70px;
-        background: transparent;
-        color: rgb(192, 186, 186);
-        font-size: 14px;
-        font-style: italic;
-        font-weight: 600;
-        padding-left: 30px;
-        position: relative;
+    .newslatter-form {
+        padding-bottom: 5px;
     }
 
     .newslatter-form form button {
-        width: 130px;
+        width: 210px;
         height: 70px;
         background: #222222;
         border: 2px solid #3b3b3b;
@@ -690,36 +654,22 @@ textarea:focus {
         cursor: pointer;
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
-        font-size: 12px;
         font-weight: bolder;
         border-radius: 50px;
     }
 
-    .footer .newslatter-form .row div#foot-col form {
-        margin-right: 40px !important;
-        margin-bottom: -50px;
-    }
-
-    .footer-content div.left {
+    .footer-content .footcont1 {
         border-bottom: 2px solid rgba(255, 255, 255, 0.637);
         border-right: none;
-        margin-bottom: 40px;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
 
-    .footer-content div.middle {
-        padding-left: 20px !important;
+    .footer-content .footcont2 {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.637);
         border-right: none;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.637);
-        margin-bottom: 40px;
-    }
-
-    .footer-content div.right {
-        padding-left: 1px !important;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.637);
-    }
-
-    .footer div.footer-content {
-        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
 
     .footer-content div h4 {
@@ -742,10 +692,45 @@ textarea:focus {
     #accordionExample {
         width: 75% !important;
     }
+}
 
-    .contact-form {
-        padding-left: 20px;
-        padding-right: 20px;
+@media (max-width: 700px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .gallery-item .overlay a {
+        top: 45%;
+        left: 53%;
+    }
+
+    .card-accord {
+        height: 65px !important;
+    }
+
+    #title-card {
+        font-size: 19px !important;
+    }
+
+    .body-card {
+        font-size: 17px !important;
+        font-weight: 500 !important;
+        font-family: 'Archivo', sans-serif !important;
+        color: rgba(153, 153, 153, 0.7) !important;
+    }
+
+    #accordionExample {
+        width: 75% !important;
+    }
+
+    .contact-col {
+        margin: 0 auto !important;
+    }
+
+    div.contact-button {
+        text-align: center !important;
+        margin-bottom: 30px;
     }
 
     .contact-widget {
@@ -754,8 +739,17 @@ textarea:focus {
         justify-content: space-evenly;
     }
 
-    #location {
-        order: 3;
+    .contact-widget .cw-item h5,
+    .contact-widget .cw-item li {
+        text-align: center;
+    }
+
+    .contact-widget {
+        padding-top: 70px;
+    }
+
+    #instagram {
+        order: 1;
     }
 
     #phone {
@@ -763,21 +757,60 @@ textarea:focus {
     }
 
     #email {
-        order: 1;
-        margin-left: -10px;
+        order: 3;
     }
 
-    .contact-widget .cw-item h5,
-    .contact-widget .cw-item li {
-        text-align: center;
+    .contact-widget .cw-item h5 {
+        font-size: 20px;
     }
 
-    .contact-form button {
-        margin-left: 80px;
+    .contact-widget .cw-item ul li {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.637);
+        font-family: 'Archivo', sans-serif;
+        letter-spacing: 0px;
+        list-style: none;
+        line-height: 28px;
     }
 
-    .contact-widget {
-        padding-top: 100px;
+    .newslatter-form form input {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .newslatter-form form button {
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 50px;
+        display: block;
+        font-size: 13px;
+    }
+
+    .footer-content .footcont1 {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.637);
+        border-right: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-content .footcont2 {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.637);
+        border-right: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-content div h4 {
+        font-size: 18px;
+    }
+
+    .footer-content div p {
+        font-size: 13px;
+    }
+
+    .footer #copyright {
+        font-size: 15px;
     }
 }
 
