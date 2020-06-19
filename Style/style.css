@@ -582,7 +582,7 @@ textarea:focus {
     margin-right: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .icon {
         width: 50px;
         height: 50px;
