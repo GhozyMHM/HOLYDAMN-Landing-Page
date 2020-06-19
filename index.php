@@ -27,7 +27,7 @@ include 'dbconnection.php';
         <section id="home">
             <!--Navigation Bar-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top pb-0 pt-0 navbar-holy">
-                <a class="navbar-brand" href="index.html"><img class="icon" src="Style/img/logo-square.png"></a>
+                <a class="navbar-brand" href="index.php"><img class="icon" src="Style/img/logo-square.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
