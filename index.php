@@ -206,6 +206,9 @@ include 'dbconnection.php';
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-black"></div>
+                    <div class="swiper-button-prev swiper-button-black"></div>
                 </div>
                 <!--Swiper End-->
             </div>
