@@ -390,7 +390,7 @@ include 'dbconnection.php';
                                 <div id="email" class="cw-item">
                                     <h5><i class="far fa-envelope mr-2"></i>E-mail</h5>
                                     <ul class="p-0 m-0">
-                                        <li>holydamnid@gmail.com</li>
+                                        <li>email@holydamn.id</li>
                                     </ul>
                                 </div>
 
@@ -432,7 +432,7 @@ include 'dbconnection.php';
                 <div class="col-lg col-md-12 footcont3">
                     <h4>Location & Contact</h4>
                     <p><i>South Tangerang, Indonesia</i></p>
-                    <p><i class="far fa-envelope mr-2"></i>holydamnid@gmail.com<br>
+                    <p><i class="far fa-envelope mr-2"></i>email@holydamn.id<br>
                         <i class="fab fa-instagram mr-2"></i>holydamn.id<br>
                         <i class="fab fa-whatsapp mr-2"></i>085770472997</p>
                 </div>
