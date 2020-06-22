@@ -362,13 +362,13 @@ include 'dbconnection.php';
                             <form class="contact-form" method="POST" action="contactdata.php">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <input spellcheck="false" type="text" placeholder="Full Name" name="fullname">
+                                        <input spellcheck="false" type="text" placeholder="Full Name" name="fullname" required>
 
-                                        <input spellcheck="false" type="email" placeholder="youremail@example.com" name="email">
+                                        <input spellcheck="false" type="email" placeholder="youremail@example.com" name="email" required>
 
-                                        <input spellcheck="false" type="text" placeholder="Subject" name="subject">
+                                        <input spellcheck="false" type="text" placeholder="Subject" name="subject" required>
 
-                                        <textarea spellcheck="false" placeholder="Your Message" name="message"></textarea>
+                                        <textarea spellcheck="false" placeholder="Your Message" name="message" required></textarea>
                                     </div>
 
                                     <div class="col-md-12 contact-button">
@@ -413,7 +413,7 @@ include 'dbconnection.php';
                 <div class="row news-row">
                     <div id="foot-col" class="col-md-10 col-10 offset-1">
                         <form method="POST" action="newsletterdata.php">
-                            <input spellcheck="false" type="text" placeholder="Your email address" name="email">
+                            <input spellcheck="false" type="text" placeholder="Your email address" name="email" required>
                             <button type="submit">Subscribe Newsletter</button>
                         </form>
                     </div>
