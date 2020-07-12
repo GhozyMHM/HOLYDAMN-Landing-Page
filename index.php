@@ -228,17 +228,17 @@ include 'dbconnection.php';
                         </div>
                         <div class="col-md-4 col-6">
                             <div class="gallery-item">
-                                <img src="Style/img/Pict1.jpeg" alt="gallery 2">
+                                <img src="Style/img/Pict9.jpg" alt="gallery 2">
                                 <div class="overlay">
-                                    <a href="Style/img/Pict1.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+                                    <a href="Style/img/Pict9.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-6">
                             <div class="gallery-item">
-                                <img src="Style/img/Pict3.jpeg" alt="gallery 3">
+                                <img src="Style/img/Pict1.jpeg" alt="gallery 3">
                                 <div class="overlay">
-                                    <a href="Style/img/Pict3.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+                                    <a href="Style/img/Pict1.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
                                 </div>
                             </div>
                         </div>
@@ -247,17 +247,17 @@ include 'dbconnection.php';
                     <div class="row templatemo_portfolio">
                         <div class="col-md-3 col-6">
                             <div class="gallery-item">
-                                <img src="Style/img/Pict4.jpeg" alt="gallery 4">
+                                <img src="Style/img/Pict7.jpg" alt="gallery 4">
                                 <div class="overlay">
-                                    <a href="Style/img/Pict4.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+                                    <a href="Style/img/Pict7.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="gallery-item">
-                                <img src="Style/img/Pict5.jpeg" alt="gallery 5">
+                                <img src="Style/img/Pict8.jpg" alt="gallery 5">
                                 <div class="overlay">
-                                    <a href="Style/img/Pict5.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+                                    <a href="Style/img/Pict8.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
                                 </div>
                             </div>
                         </div>
@@ -271,9 +271,9 @@ include 'dbconnection.php';
                         </div>
                         <div class="col-md-3 col-6">
                             <div class="gallery-item">
-                                <img src="Style/img/Pict6.jpeg" alt="gallery 7">
+                                <img src="Style/img/Pict5.jpeg" alt="gallery 7">
                                 <div class="overlay">
-                                    <a href="Style/img/Pict6.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+                                    <a href="Style/img/Pict5.jpeg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
                                 </div>
                             </div>
                         </div>
