@@ -9,11 +9,11 @@
     "description": "Your Classy Outfit.",
     "orientation": "portrait",
     "icons": [{
-        "src": "/images/icon192.png",
+        "src": "/Style/img/icon192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
-        "src": "images/icon512.png",
+        "src": "Style/img/icon512.png",
         "sizes": "512x512",
         "type": "image/png"
     }]
