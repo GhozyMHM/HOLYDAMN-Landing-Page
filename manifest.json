@@ -4,7 +4,6 @@
     "start_url": "index.php",
     "display": "standalone",
     "background_color": "#fff",
-    "scope": "/",
     "theme_color": "#222222",
     "description": "Your Classy Outfit.",
     "orientation": "portrait",
