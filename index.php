@@ -9,6 +9,8 @@ include 'dbconnection.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3823a4">
     <link rel="stylesheet" href="Style/animate.css">
     <link rel="stylesheet" href="Style/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
@@ -449,6 +451,8 @@ include 'dbconnection.php';
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <script src="main.js"></script>
+    <script src="sw.js"></script>
     <script src="Style/owl.carousel.min.js"></script>
     <script src="JS/swiper.min.js"></script>
     <script src="https://kit.fontawesome.com/9fb210ee5d.js" crossorigin="anonymous"></script>
