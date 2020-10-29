@@ -1,7 +1,7 @@
 {
     "name": "Holydamn Outfit",
     "short_name": "Holydamn",
-    "start_url": "/index.html",
+    "start_url": "index.php",
     "display": "standalone",
     "background_color": "#fff",
     "scope": "/",
@@ -9,7 +9,7 @@
     "description": "Your Classy Outfit.",
     "orientation": "portrait",
     "icons": [{
-        "src": "/Style/img/icon192.png",
+        "src": "Style/img/icon192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
