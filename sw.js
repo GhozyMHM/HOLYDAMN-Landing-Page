@@ -1,7 +1,7 @@
 var CACHE_NAME = 'holydamn-cache-v1';
 var urlsToCache = [
     '/',
-    '/index.php',
+    'index.php',
 ];
 
 self.addEventListener('install', function (event) {
