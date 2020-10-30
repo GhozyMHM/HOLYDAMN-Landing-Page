@@ -9,9 +9,10 @@ include 'dbconnection.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#222222">
+    <meta name="description" content="HOLYDAMN is the best choice for those who are looking for classy outfit with a fair price.">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="/Style/img/apple-touch-icon.png">
-    <meta name="theme-color" content="#222222">
     <link rel="stylesheet" href="Style/animate.css">
     <link rel="stylesheet" href="Style/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
