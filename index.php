@@ -12,6 +12,7 @@ include 'dbconnection.php';
     <meta name="theme-color" content="#222222">
     <meta name="description" content="HOLYDAMN is the best choice for those who are looking for classy outfit with a fair price.">
     <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://www.holydamn.id/">
     <link rel="apple-touch-icon" href="/Style/img/apple-touch-icon.png">
     <link rel="stylesheet" href="Style/animate.css">
     <link rel="stylesheet" href="Style/mobirise-icons/mobirise-icons.css">
