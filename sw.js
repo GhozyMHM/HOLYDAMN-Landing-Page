@@ -2,6 +2,8 @@ var CACHE_NAME = 'holydamn-cache-v1';
 var urlsToCache = [
     '/',
     'index.php',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
+    'https://kit.fontawesome.com/9fb210ee5d.js'
 ];
 
 self.addEventListener('install', function (event) {
