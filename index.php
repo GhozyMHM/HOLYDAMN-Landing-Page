@@ -21,7 +21,6 @@ include 'dbconnection.php';
     <link rel="stylesheet" href="Style/swiper.min.css">
     <link rel="stylesheet" href="Style/style.css">
     <link rel="shortcut icon" href="Style/img/logo-square.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>HOLYDAMN | Your Classy Outfit</title>
 </head>
 
