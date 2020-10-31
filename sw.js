@@ -2,6 +2,14 @@ var CACHE_NAME = 'holydamn-cache-v1';
 var urlsToCache = [
     '/',
     'index.php',
+    'Style/style.css',
+    'Style/animate.css',
+    'Style/mobirise-icons/mobirise-icons.css',
+    'Bootstrap/css/bootstrap.min.css',
+    'Bootstrap/js/bootstrap.min.js',
+    'Style/swiper.min.css',
+    'Style/owl.carousel.min.js',
+    'JS/swiper.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
     'https://kit.fontawesome.com/9fb210ee5d.js'
 ];
