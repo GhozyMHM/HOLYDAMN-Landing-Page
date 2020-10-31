@@ -2,6 +2,7 @@ var CACHE_NAME = 'holydamn-cache-v1';
 var urlsToCache = [
     '/',
     'index.php',
+    'Style/img/',
     'Style/style.css',
     'Style/animate.css',
     'Style/mobirise-icons/mobirise-icons.css',
