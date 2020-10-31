@@ -19,8 +19,13 @@ self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(CACHE_NAME)
         .then(function (cache) {
-            console.log('Opened cache');
-            return cache.addAll(urlsToCache);
+            cache.addAll(urlsToCache.map(function (urlsToCache) {
+                return new Request(urlsToCache, {
+                    mode: 'no-cors'
+                });
+            })).then(function () {
+                console.log('All resources have been fetched and cached.');
+            });
         })
     );
 });
