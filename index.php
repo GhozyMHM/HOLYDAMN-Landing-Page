@@ -10,7 +10,8 @@ include 'dbconnection.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
     <meta name="theme-color" content="#222222">
-    <meta name="description" content="HOLYDAMN is the best choice for those who are looking for classy outfit with a fair price.">
+    <meta name="description"
+        content="HOLYDAMN is the best choice for those who are looking for classy outfit with a fair price.">
     <link rel="manifest" href="manifest.json">
     <link rel="canonical" href="https://www.holydamn.id/">
     <link rel="apple-touch-icon" href="/Style/img/apple-touch-icon.png">
@@ -32,7 +33,9 @@ include 'dbconnection.php';
             <!--Navigation Bar-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top pb-0 pt-0 navbar-holy">
                 <a class="navbar-brand" href="index.php"><img class="icon" src="Style/img/logo-square.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -121,7 +124,8 @@ include 'dbconnection.php';
             <div class="jumbotron jumbotron-fluid">
                 <div class="row">
                     <div class="col text-center">
-                        <a href="https://linktr.ee/Holydamn" target="_blank"><button class="btn btn-dark">ORDER</button></a>
+                        <a href="https://linktr.ee/Holydamn" target="_blank"><button
+                                class="btn btn-dark">ORDER</button></a>
                     </div>
                 </div>
             </div>
@@ -296,7 +300,9 @@ include 'dbconnection.php';
                 <div class="card card-wrap mb-3">
                     <div class="card-header card-accord" id="headingOne">
                         <h2 class="mb-0">
-                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title"
+                                type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
                                 <i class="fas fa-chevron-down fa-lg mr-3"></i>Holydamn Brand
                             </button>
                         </h2>
@@ -316,7 +322,9 @@ include 'dbconnection.php';
                 <div class="card card-wrap mb-3">
                     <div class="card-header card-accord" id="headingTwo">
                         <h2 class="mb-0">
-                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title"
+                                type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
                                 <i class="fas fa-chevron-down fa-lg mr-3"></i>Our Product
                             </button>
                         </h2>
@@ -338,13 +346,16 @@ include 'dbconnection.php';
                 <div class="card card-wrap">
                     <div class="card-header card-accord" id="headingThree">
                         <h2 class="mb-0">
-                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button id="title-card" class="btn btn-link btn-block text-left collapsed button-title"
+                                type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
                                 <i class="fas fa-chevron-down fa-lg mr-3"></i>This Website
                             </button>
                         </h2>
                     </div>
 
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
                         <div class="card-body body-card">
                             Welcome to the landing page of HOLYDAMN. This is the right place
                             to upgrade your style with our product. You can see our catalog and Information
@@ -366,13 +377,17 @@ include 'dbconnection.php';
                             <form class="contact-form" method="POST" action="contactdata.php">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <input spellcheck="false" type="text" placeholder="Full Name" name="fullname" required>
+                                        <input spellcheck="false" type="text" placeholder="Full Name" name="fullname"
+                                            required>
 
-                                        <input spellcheck="false" type="email" placeholder="youremail@example.com" name="email" required>
+                                        <input spellcheck="false" type="email" placeholder="youremail@example.com"
+                                            name="email" required>
 
-                                        <input spellcheck="false" type="text" placeholder="Subject" name="subject" required>
+                                        <input spellcheck="false" type="text" placeholder="Subject" name="subject"
+                                            required>
 
-                                        <textarea spellcheck="false" placeholder="Your Message" name="message" required></textarea>
+                                        <textarea spellcheck="false" placeholder="Your Message" name="message"
+                                            required></textarea>
                                     </div>
 
                                     <div class="col-md-12 contact-button">
@@ -417,7 +432,8 @@ include 'dbconnection.php';
                 <div class="row news-row">
                     <div id="foot-col" class="col-md-10 col-10 offset-1">
                         <form method="POST" action="newsletterdata.php">
-                            <input spellcheck="false" type="text" placeholder="Your email address" name="email" required>
+                            <input spellcheck="false" type="text" placeholder="Your email address" name="email"
+                                required>
                             <button type="submit">Subscribe Newsletter</button>
                         </form>
                     </div>
@@ -438,20 +454,24 @@ include 'dbconnection.php';
                     <p><i>South Tangerang, Indonesia</i></p>
                     <p><i class="far fa-envelope mr-2"></i>email@holydamn.id<br>
                         <i class="fab fa-instagram mr-2"></i>holydamn.id<br>
-                        <i class="fab fa-whatsapp mr-2"></i>085770472997</p>
+                        <i class="fab fa-whatsapp mr-2"></i>085770472997
+                    </p>
                 </div>
             </div>
-            <p id="copyright">HolyDamn &copy; 2020. All rights reserved.</p>
+            <p id="copyright">HolyDamn &copy; 2021. All rights reserved.</p>
         </div>
         <!--Footer-->
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <script src="main.js"></script>
     <script src="sw.js"></script>
